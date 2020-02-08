@@ -1,0 +1,9 @@
+These are the commands that I used in my GIT BASH shell to do Step 1:
+
+-git init
+-git add .
+-git commit -m "initial commit"
+-git status (just to check status)
+-git remote add origin https://github.com/NathanD2/A00960831gitlab.git
+-git push origin master
+git log (just to check)
