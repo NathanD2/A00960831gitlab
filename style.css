@@ -11,4 +11,8 @@
   li:hover {
     cursor: pointer;
   }
+
+  body {
+    background-color: white;
+  }
   
