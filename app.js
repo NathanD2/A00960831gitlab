@@ -37,7 +37,7 @@ function countMovie(){
     else{
         var inlist = false;
 
-        //iterate through moviehistory array
+        //iterate through moviehistory array.
         for (var i = 0; i < moviehistory.length; i++){
             
             //if the movie is already in the list, increment watch counter by 1
