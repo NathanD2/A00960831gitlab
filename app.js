@@ -5,6 +5,7 @@ var div = document.getElementById("movietable");
 moviehistory = [];
 
 function countMovie(){
+    console.log(moviehistory);
     var movieInput = document.getElementById("new-movie").value;
 
     var inList = false;
@@ -41,7 +42,7 @@ function countMovie(){
         for (var i = 0; i < moviehistory.length; i++){
             
             //if the movie is already in the list, increment watch counter by 1
-            if (movieInput == moviehistory[i]['movie']){
+            if (movieInput.toLowerCase() == moviehistory[i]['movie'].toLowerCase()){
                 moviehistory[i]['watchnum']++;
                 
                 document.getElementById("tbl").rows[i].cells[1].innerHTML = moviehistory[i]['watchnum'];
